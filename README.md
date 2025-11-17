@@ -1,3 +1,6 @@
+<img width="743" height="1023" alt="Screenshot 2025-11-18 004339" src="https://github.com/user-attachments/assets/344e1981-97d9-4aa3-81c8-250e29dcc82e" />
+
+
 Discrimination
 ---
 
