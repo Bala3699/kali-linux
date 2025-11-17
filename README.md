@@ -1,4 +1,4 @@
-Here is a **single README paragraph with a disclaimer** (short, powerful, professional, and slightly dark-themed):
+
 
 ---
 
