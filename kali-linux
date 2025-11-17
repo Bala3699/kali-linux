@@ -1,0 +1,32 @@
+#  Kali Linux Beginner's 2025
+
+
+#  Kali Linux Toolkit
+
+Welcome to the **Kali Linux Toolkit Repository** — a collection of resources, scripts, notes, and guides designed for beginners and cybersecurity learners.
+
+This repository helps you get started with:
+
+- Ethical Hacking
+- Penetration Testing
+- OSINT Research
+- Bug Bounty Hunting
+- Security Automation
+
+
+---
+
+##  About Kali Linux
+
+Kali Linux is a Debian-based operating system designed for security professionals.  
+It contains more than **600+ pre-installed penetration testing tools**, including:
+
+- Nmap
+- Metasploit Framework
+- Burp Suite
+- Hydra
+- Wireshark
+- John the Ripper
+
+---
+
