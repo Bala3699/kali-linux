@@ -31,3 +31,24 @@ uptime
 ```
 ifconfig
 ```
+## To Process all the files
+```
+psaux
+```
+## To verify the current User
+```
+whoami
+```
+## To swetch to Root user
+```
+sudo su
+```
+# To return back to normal user
+```
+exit
+```
+## To analyse the Bash History
+```
+history
+```
+
