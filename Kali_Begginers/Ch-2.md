@@ -51,4 +51,17 @@ exit
 ```
 history
 ```
+## Check disk usage in human-readable format
+```
+df -h
+```
+## View running processes live
+```
+top
+```
+## See SSH sessions/processes
+```
+ps aux | grep ssh
+```
+Each command teaches you how Linux provides real-time visibility into system resources.
 
