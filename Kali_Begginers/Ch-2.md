@@ -142,6 +142,10 @@ ls -l /home
 - `-l` → option (how to run)
 - `/home` → argument (on what)
 
+## To hide a file & folder use `"."`
+```
+.example.txt
+```
 ---
 
 ## Conclusion
