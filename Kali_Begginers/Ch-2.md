@@ -148,6 +148,335 @@ ls -l /home
 ```
 ---
 
+## 1️⃣ `whoami`
+
+### Command
+```bash
+whoami
+````
+
+### Meaning
+
+👉 **Who am I? (current user)**
+
+Internally, Linux checks:
+
+* Which user is logged in
+* Prints the username
+
+### Example Output
+
+```text
+student
+```
+
+### Why This Is Important
+
+* Linux is a **multi-user operating system**
+* Every file, process, and permission depends on **who you are**
+* Helps confirm which user account you are using
+
+---
+
+## 2️⃣ `pwd`
+
+### Command
+
+```bash
+pwd
+```
+
+### Meaning
+
+**Print Working Directory**
+It shows your **current location** in the filesystem.
+
+### Linux Filesystem Structure (Tree Example)
+
+```text
+/
+└── home
+    └── student
+```
+
+### Example Output
+
+```text
+/home/student
+```
+
+### Meaning of Output
+
+* You are currently inside the `student` user’s home directory
+* Everything you do (create files, run commands) happens **here**
+
+---
+
+## 3️⃣ `ls`
+
+### Command
+
+```bash
+ls
+```
+
+### Meaning
+
+Lists **files and folders** in the current directory.
+
+### Example Output
+
+```text
+Documents  Downloads  Music
+```
+
+---
+
+### Detailed Listing
+
+```bash
+ls -l
+```
+
+### Example Output
+
+```text
+drwxr-xr-x 2 student student 4096 Documents
+```
+
+### Explanation (Do NOT Memorize — Just Understand)
+
+| Part      | Meaning            |
+| --------- | ------------------ |
+| d         | Directory          |
+| rwx       | Owner permissions  |
+| r-x       | Group permissions  |
+| r-x       | Others permissions |
+| student   | File owner         |
+| 4096      | File size          |
+| Documents | Name               |
+
+📌 Permissions will be covered later — for now, just recognize the format.
+
+---
+
+## 4️⃣ `cd`
+
+### Command
+
+```bash
+cd Documents
+```
+
+### Meaning
+
+**Change Directory**
+Moves you inside the `Documents` folder.
+
+### Verify Location
+
+```bash
+pwd
+```
+
+---
+
+### Go Back One Level
+
+```bash
+cd ..
+```
+
+### Explanation
+
+* `..` means **parent directory**
+* Used to move **up** in the directory tree
+
+---
+
+## 5️⃣ `uname`
+
+### Basic Command
+
+```bash
+uname
+```
+
+### Example Output
+
+```text
+Linux
+```
+
+### Meaning
+
+Shows the **kernel name**
+
+---
+
+### Detailed Information
+
+```bash
+uname -a
+```
+
+### Example Output
+
+```text
+Linux mypc 5.15.0 x86_64 GNU/Linux
+```
+
+### Explanation
+
+| Part      | Meaning             |
+| --------- | ------------------- |
+| Linux     | Kernel name         |
+| 5.15.0    | Kernel version      |
+| x86_64    | 64-bit architecture |
+| GNU/Linux | OS type             |
+
+---
+
+## 6️⃣ `cat`
+
+### Command
+
+```bash
+cat /etc/os-release
+```
+
+### Meaning
+
+* Reads a file
+* Prints its content to the terminal
+
+### Example Output
+
+```text
+NAME="Ubuntu"
+VERSION="22.04"
+```
+
+### Used For
+
+* Reading configuration files
+* Viewing text files
+* Debugging system settings
+
+---
+
+## 7️⃣ `top` (IMPORTANT)
+
+### Command
+
+```bash
+top
+```
+
+### What Happens
+
+* Shows **running processes**
+* Displays **CPU usage**
+* Displays **memory usage**
+
+🧠 Think of it as **Linux Task Manager**
+
+---
+
+### Important Columns
+
+| Column | Meaning          |
+| ------ | ---------------- |
+| PID    | Process ID       |
+| USER   | Owner of process |
+| %CPU   | CPU usage        |
+| %MEM   | RAM usage        |
+
+### Exit `top`
+
+```text
+Press q
+```
+
+### Why `top` Is Important
+
+* Identify slow programs
+* Monitor system health
+* Detect resource-heavy processes
+* Kill misbehaving programs (later)
+
+---
+
+# 📁 PART 4: FILESYSTEM — FULLY SIMPLIFIED
+
+## Root Directory
+
+Linux has **ONE root directory**:
+
+```text
+/
+```
+
+Everything starts from `/`
+
+---
+
+## Important Directories
+
+| Directory | Purpose                |
+| --------- | ---------------------- |
+| /home     | User files             |
+| /etc      | Configuration files    |
+| /bin      | Basic system commands  |
+| /usr      | Installed software     |
+| /var      | Logs and variable data |
+
+---
+
+### Example
+
+```bash
+ls /etc
+```
+
+### You Will See
+
+* Configuration files
+* Service settings
+* System behavior controls
+
+⚠️ Be careful — editing wrong files can break the system.
+
+---
+
+# 🧠 PART 5: KERNEL & DISTRIBUTION (DISTRO)
+
+## Kernel
+
+* Core of Linux
+* Communicates with hardware
+* Manages CPU, memory, devices, processes
+
+🧠 Think of it as the **brain of the OS**
+
+---
+
+## Distribution (Distro)
+
+A **complete operating system** built using:
+
+* Linux kernel
+* Commands
+* Package manager
+* Desktop or server tools
+
+### Popular Distros
+
+* Ubuntu
+* Fedora
+* RHEL (Red Hat Enterprise Linux)
+
+---
 ## Conclusion
 
 Comments are essential for writing **clean, readable, and maintainable shell scripts**. Proper commenting is a key skill for:
