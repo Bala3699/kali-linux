@@ -24,7 +24,7 @@ This repository documents my learning and hands-on practice during my internship
 - Git & GitHub for documentation
 
 ## 📂 Repository Structure
-''' kali bigneers '''
+' kali bigneers '
 
 ## 🚀 Goal
 To build strong **Linux and network security foundations** and prepare for **SOC / Blue Team roles** through consistent hands-on practice and documentation.
