@@ -1,7 +1,30 @@
 <img width="743" height="1023" alt="Screenshot 2025-11-18 004339" src="https://github.com/user-attachments/assets/344e1981-97d9-4aa3-81c8-250e29dcc82e" />
 
 
-Discrimination
----
+# Network Security & Linux Mastery – Internship Practice
 
-**This document provides beginner-level insight into Kali Linux, a powerful penetration testing operating system used by cybersecurity professionals and malicious actors alike. All information provided here is strictly for ethical and educational purposes. Unauthorized use of Kali Linux tools against systems you do not own or have written permission to test is illegal and punishable by law. The author assumes no responsibility for any misuse of the knowledge contained in this material—use it wisely, legally, and responsibly.**
+This repository documents my learning and hands-on practice during my internship at **Unleash Networks** as a **Network Security Analyst Intern (Linux & Blue Team)**.
+
+## 📌 Focus Areas
+- Linux system fundamentals
+- Processes, services, and startup behavior
+- Network security basics
+- Blue Team defensive concepts
+
+## 🧠 What I’m Learning
+- Linux process management and service analysis
+- Startup files and persistence mechanisms
+- Network services, ports, and exposure
+- Identifying misconfigurations and suspicious behavior
+- Defensive mindset for SOC and Blue Team roles
+
+## 🛠️ Tools & Commands
+- Linux CLI (ps, top, systemctl, netstat, ss, lsof, journalctl)
+- Bash basics
+- Git & GitHub for documentation
+
+## 📂 Repository Structure
+
+
+## 🚀 Goal
+To build strong **Linux and network security foundations** and prepare for **SOC / Blue Team roles** through consistent hands-on practice and documentation.
