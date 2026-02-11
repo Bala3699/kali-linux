@@ -23,7 +23,7 @@ This repository documents my learning and hands-on practice during my internship
 - Bash basics
 - Git & GitHub for documentation
 
-## 📂 Repository Structure
+## 📂 Repository 
 ``` Kali_Bigneers```
 
 ## 🚀 Goal
