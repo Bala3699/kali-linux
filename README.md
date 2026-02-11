@@ -24,7 +24,7 @@ This repository documents my learning and hands-on practice during my internship
 - Git & GitHub for documentation
 
 ## 📂 Repository 
-``` Kali_Bigneers```
+![Kali_linux](https://github.com/Bala3699/kali-linux/tree/main/Kali_Beginners)
 
 ## 🚀 Goal
 To build strong **Linux and network security foundations** and prepare for **SOC / Blue Team roles** through consistent hands-on practice and documentation.
