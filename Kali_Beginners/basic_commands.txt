@@ -1,0 +1,45 @@
+ls 
+cd
+cp 
+mkdir 
+rmdir  (Be carefull while running) 
+rm (Be carefull while running)
+chown 
+chmod
+touch 
+alias
+hardlinks vs softlinks 
+ssh 
+scp 
+sftp 
+ip addr
+echo 
+cat 
+clear 
+df 
+whoami 
+sort
+wget 
+
+vi (mostly used ) - How to write , delete , How to replace 
+nano 
+
+dpkg 
+rpm 
+
+## Mostly Used 
+grep 
+awk
+cut
+find 
+
+
+xargs 
+
+
+
+
+
+
+
+
