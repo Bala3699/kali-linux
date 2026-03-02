@@ -35,9 +35,17 @@ do
         echo "Exiting..."
         break
     fi
-
+    
     read -p "Enter num1: " num1
     read -p "Enter num2: " num2
+
+    # 🔹 Input validation
+    if ! [[ "$num1" =~ ^[0-9]+$ && "$num2" =~ ^[0-9]+$ ]]
+    then
+        echo "Invalid number input"
+        echo ""
+        continue
+    fi
 
     case "$ch" in
         +) result=$(add "$num1" "$num2") ;;
