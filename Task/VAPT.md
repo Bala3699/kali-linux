@@ -6,8 +6,14 @@ This project documents my hands-on experience conducting a structured Vulnerabil
 
 The objective was to understand attack surface analysis, vulnerability validation, detection behavior, and defensive security mechanisms — strictly for educational and ethical purposes.
 
-> ⚠️ All activities were performed in a controlled lab setup.  
-> No production systems or real-world targets were involved.
+<br>
+
+![ALL](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/Screenshot%20From%202026-03-02%2017-39-35.png)
+
+
+<br> 
+
+> ⚠️ All activities were performed in a controlled lab setup. No production systems or real-world targets were involved. 
 
 ---
 
@@ -32,6 +38,12 @@ The objective was to understand attack surface analysis, vulnerability validatio
 
 **Goal:** Understand exposed attack surface before testing.
 
+<br>
+
+![nmap](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/nmap.png)
+![nik](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/nik2.jpeg) 
+![nik](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/nikto.png)
+
 ---
 
 ### 2️⃣ Web Server & Application Assessment
@@ -42,6 +54,10 @@ The objective was to understand attack surface analysis, vulnerability validatio
 - Input field testing
 
 **Goal:** Identify common misconfigurations and insecure implementations.
+
+<br>
+
+![what](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/what.jpeg)
 
 ---
 
@@ -57,6 +73,13 @@ Tested for:
 **Important Observation:**
 Several attempts did not succeed due to proper input validation and security controls — reinforcing the importance of secure coding and layered defense.
 
+<br>
+
+![zap](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/zap.jpeg)
+![zap](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/zap2.jpeg)
+![sql](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/sqlm.jpeg)
+![bru](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/bru.jpeg)
+
 ---
 
 ### 4️⃣ Traffic Monitoring & Analysis
@@ -68,16 +91,27 @@ Several attempts did not succeed due to proper input validation and security con
 **Learning Outcome:**  
 Detection systems respond based on behavioral thresholds and traffic characteristics, not just attack attempts.
 
+<br>
+
+![HIOC](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/Screenshot%20From%202026-03-02%2017-37-33.png)
+![wir](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/wir.jpeg)
+
+<br>
+
+![monit](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/alert.jpeg)
+
 ---
 
 ## 🛠 Tools Used
 
 - Nmap
+- whatweb
 - Nikto
 - OWASP ZAP
 - sqlmap
 - Wireshark
 - Brute-force testing utilities
+- High orbit cannon
 - Lab monitoring & alerting systems
 
 > Tools were used for controlled testing and validation only.
