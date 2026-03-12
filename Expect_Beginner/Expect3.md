@@ -275,29 +275,3 @@ This interaction model is what allows Expect to automate:
 
 ---
 
-# 📈 Skills Learned
-
-After learning these Tcl basics, you understand:
-
-* Tcl command structure
-* String handling
-* Variable creation using `set`
-* Accessing variables using `$`
-* Basic printing using `puts`
-* How Tcl integrates with Expect automation
-
----
-
-# 🚀 Next Learning Direction
-
-After mastering these Tcl basics, the next step is learning the **core Expect automation commands**, including:
-
-* `spawn`
-* `expect`
-* `send`
-* Pattern matching
-* Automating interactive terminal sessions
-
-These concepts enable building **fully automated CLI interaction scripts**.
-
----
