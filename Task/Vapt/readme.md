@@ -46,6 +46,23 @@ Many vulnerabilities arise from configuration weaknesses rather than application
 
 ## 🌐 3. Web Application Security Testing
 
+🛡 5. Intrusion Detection & Monitoring
+
+🛠 Tool Used
+
+    Suricata – Intrusion Detection System (IDS)
+
+🔎 Activities Performed
+
+    Monitored traffic for suspicious patterns
+    Observed alerts during simulated attacks
+
+💡 Key Learning
+
+Intrusion detection systems provide visibility into potential attacks and improve defensive security posture.
+
+
+
 ### 🛠 Tool Used
 - OWASP ZAP – Web application security scanner  
 
@@ -54,7 +71,8 @@ Many vulnerabilities arise from configuration weaknesses rather than application
 - Authentication workflows  
 - Access control logic (IDOR checks)  
 - Injection resistance  
-- CSRF protections  
+- CSRF protections
+
 
 ### 📊 Observations
 - SQL injection attempts were mitigated  
