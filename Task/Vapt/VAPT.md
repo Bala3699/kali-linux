@@ -6,6 +6,7 @@ This project documents my hands-on experience conducting a structured Vulnerabil
 
 The objective was to understand attack surface analysis, vulnerability validation, detection behavior, and defensive security mechanisms — strictly for educational and ethical purposes.
 
+The lab environment included an Nginx web server and a Suricata-based intrusion detection system (IDS) to simulate real-world defensive security controls.
 <br>
 
 ![ALL](https://github.com/Bala3699/kali-linux/blob/main/Task/vapt%20_img/Screenshot%20From%202026-03-02%2017-39-35.png)
