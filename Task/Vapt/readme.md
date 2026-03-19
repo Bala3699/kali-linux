@@ -8,6 +8,8 @@ This engagement was performed strictly for educational and defensive purposes. N
 
 The objective was to understand how layered security controls protect modern web applications.
 
+The lab environment included an Nginx web server and a Suricata-based intrusion detection system (IDS) to simulate real-world defensive security controls.
+
 ---
 
 ## 🧭 1. Reconnaissance & Attack Surface Mapping
